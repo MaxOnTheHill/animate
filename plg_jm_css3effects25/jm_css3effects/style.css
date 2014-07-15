@@ -1,0 +1,1231 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+a img {
+-webkit-transition: all 0.5s ease-out;
+transition:  all 0.5s ease-out;
+-moz-transition: all 0.5s ease-out;
+-o-transition: all 0.5s ease-out;
+
+}
+a img:hover {
+-webkit-transition: all 0.5s ease-out;
+transition:  all 0.5s ease-out;
+-moz-transition: all 0.5s ease-out;
+-o-transition: all 0.5s ease-out;
+}
+
+/* jm-rotate effect */
+ 
+.jm-rotate a img:hover {
+	-webkit-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+}
+
+/* jm-rotate360 effect */
+
+.jm-rotate360 a img:hover {
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+}
+
+
+
+/* jm-reflaction effect */
+ 
+.jm-reflact img:hover { 
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent),to(rgba(0,0,0,0.4)));
+ 
+}
+
+/* jm-glow effect */
+ 
+.jm-glow img:hover {  
+-webkit-box-shadow: 0px 0px 10px 10px #FFC; 
+-moz-box-shadow: 0px 0px 10px 10px #FFC;
+box-shadow: 0px 0px 10px 10px #FFC;
+}
+
+/* jm-small effect */
+
+
+.jm-small a img:hover{
+		-webkit-transform: scale(.5);
+		transform: scale(.5);
+		-ms-transform: scale(.5);
+		-o-transform: scale(.5);
+		-moz-transform: scale(.5);
+}
+
+/* jm-large effect */
+
+.jm-large a img:hover{
+		-webkit-transform: scale(1.5);
+		transform: scale(1.5);
+		-ms-transform: scale(1.5);
+		-o-transform: scale(1.5);
+		-moz-transform: scale(1.5);
+}
+
+/* jm-down effect */
+
+.jm-down a img:hover{
+		-webkit-transform: translate(0px,40px); 
+		transform: translate(0px,40px);
+		-ms-transform: translate(0px,40px);
+		-o-transform: translate(0px,40px);
+		-moz-transform: translate(0px,40px);
+}
+
+/* jm-up effect */
+.jm-up a img:hover{
+		-webkit-transform: translate(0px,-40px);
+		transform: translate(0px,-40px);
+		-ms-transform: translate(0px,-40px);
+		-o-transform: translate(0px,-40px);
+		-moz-transform: translate(0px,-40px);
+}
+
+/* jm-left effect */
+.jm-left a img:hover{
+		-webkit-transform: translate(-40px,0px);
+		transform: translate(-40px,0px);
+		-ms-transform: translate(-40px,0px);
+		-o-transform: translate(-40px,0px);
+		-moz-transform: translate(-40px,0px);
+} 
+
+/* jm-right effect */
+.jm-right a img:hover{
+		-webkit-transform: translate(40px,0px);
+		transform: translate(40px,0px);
+		-ms-transform: translate(40px,0px);
+		-o-transform: translate(40px,0px);
+		-moz-transform: translate(40px,0px);
+}
+
+/* jm-skew-left effect */
+.jm-skew-left a img:hover{
+		-webkit-transform: skew(30deg,20deg);
+		transform: skew(30deg,20deg);
+		-ms-transform: skew(30deg,20deg);
+		-o-transform: skew(30deg,20deg);
+		-moz-transform: skew(30deg,20deg);
+}
+
+/* jm-skew-right effect */
+.jm-skew-right a img:hover{
+		-webkit-transform: skew(-30deg,-20deg);
+		transform: skew(-30deg,-20deg);
+		-ms-transform: skew(-30deg,-20deg);
+		-o-transform: skew(-30deg,-20deg);
+		-moz-transform: skew(-30deg,-20deg);
+}
+
+/* jm-flipX effect */
+.jm-flipX a img:hover{
+		-webkit-transform: rotateX(180deg);
+		transform: rotateX(180deg);
+		-ms-transform: rotateX(180deg);
+		-o-transform: rotateX(180deg);
+		-moz-transform: rotateX(180deg);
+}
+
+/* jm-flipY effect */
+.jm-flipY a img:hover{
+		-webkit-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+		-ms-transform: rotateY(180deg);
+		-o-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+}
+
+/* jm-Rotate Small effect */
+.jm-rotateS a img {
+		-webkit-transition-timing-function: ease-out;
+		-webkit-transition-duration: 500ms;
+		
+		transition-timing-function: ease-out;
+		transition-duration: 500ms;
+		
+		-moz-transition-timing-function: ease-out;
+		-moz-transition-duration: 500ms;
+		
+		-o-transition-timing-function: ease-out;
+		-o-transition-duration: 500ms;
+		
+}
+.jm-rotateS a img:hover{
+		-webkit-transform: rotate(360deg) scale(.5);
+		-webkit-transition-timing-function: ease-out;
+		-webkit-transition-duration: 500ms;
+
+		transform: rotate(360deg) scale(.5);
+		transition-timing-function: ease-out;
+		transition-duration: 500ms;
+		
+		-moz-transform: rotate(360deg) scale(.5);
+		-moz-transition-timing-function: ease-out;
+		-moz-transition-duration: 500ms;
+		
+		-o-transform: rotate(360deg) scale(.5);
+		-o-transition-timing-function: ease-out;
+		-o-transition-duration: 500ms;
+		
+		-ms-transform: rotate(360deg) scale(.5);
+}
+
+/* jm-Rotate Large effect */
+.jm-rotateL a img {
+		-webkit-transition-timing-function: ease-out;
+		-webkit-transition-duration: 500ms;
+		
+		transition-timing-function: ease-out;
+		transition-duration: 500ms;
+		
+		-moz-transition-timing-function:  ease-out;
+		-moz-transition-duration: 500ms;
+		
+		-o-transition-timing-function: ease-out;
+		-o-transition-duration: 500ms;
+}
+.jm-rotateL a img:hover{
+		-webkit-transform: rotate(360deg) scale(1.5);
+		-webkit-transition-timing-function: ease-out;
+		-webkit-transition-duration: 500ms;
+
+		transform: rotate(360deg) scale(1.5);
+		transition-timing-function: ease-out;
+		transition-duration: 500ms;
+		
+		-moz-transform: rotate(360deg) scale(1.5);
+		-moz-transition-timing-function: ease-out;
+		-moz-transition-duration: 500ms;
+		
+		-o-transform: rotate(360deg) scale(1.5);
+		-o-transition-timing-function: ease-out;
+		-o-transition-duration: 500ms;
+		
+		-ms-transform: rotate(360deg) scale(1.5);
+}
+
+
+
+/* jm-static effects */
+
+
+/* jm-shapes */
+.jm-shape1 a img
+{
+	border-radius: 100%;
+	-moz-border-radius:  100%;
+}
+
+.jm-shape2 a img
+{
+	border-radius: 10%;
+	-moz-border-radius:  10%;
+}
+
+.jm-shape3 a img
+{
+	border-radius: 20% 0;
+	-moz-border-radius: 20% 0;
+}
+
+.jm-shape4 a img
+{
+	border-radius: 30% 10%;
+	-moz-border-radius: 30% 10%;
+}
+
+.jm-shape5 a img
+{
+	-moz-border-radius: 25% 10% / 10% 25%;
+	border-radius: 25% 10% / 10% 25%;
+}
+
+.jm-shape6 a img
+{
+	-webkit-border-top-right-radius: 25%;
+	-webkit-border-top-left-radius: 25%;
+	-moz-border-radius-topright: 25%;
+	-moz-border-radius-topleft: 25%;
+}
+
+.jm-shape1 a img:hover
+{
+	border-radius: 0%;
+	-moz-border-radius:  0%;
+}
+
+.jm-shape2 a img:hover
+{
+	border-radius: 0%;
+	-moz-border-radius:  0%;
+}
+
+.jm-shape3 a img:hover
+{
+	border-radius: 0% 0;
+	-moz-border-radius: 0% 0;
+}
+
+.jm-shape4 a img:hover
+{
+	border-radius: 0% 0%;
+	-moz-border-radius: 0% 0%;
+}
+
+.jm-shape5 a img:hover
+{
+	-moz-border-radius: 0% 0% / 0% 0%;
+	border-radius: 0% 0% / 0% 0%;
+}
+
+.jm-shape6 a img:hover
+{
+	-webkit-border-top-right-radius: 0%;
+	-webkit-border-top-left-radius: 0%;
+	-moz-border-radius-topright: 0%;
+	-moz-border-radius-topleft: 0%;
+}
+
+/* jm-shadow */
+.jm-shadow a img
+{
+-webkit-box-shadow: 5px 5px 5px #888;
+-moz-box-shadow: 5px 5px 5px #888;
+box-shadow: 5px 5px 5px #888;
+}
+
+
+/* jm-opacity */
+.jm-opacity a img:hover
+{
+	opacity: 1.0;
+	filter:alpha(opacity=100);
+}
+
+
+/* jm-grayscale effect */
+.jm-grayscale a img
+{
+	-webkit-filter: grayscale(100%);
+	filter: url(filter.svg#grayscale); /* Firefox 3.5+ */
+}
+.jm-grayscale a img:hover
+{
+-webkit-filter: grayscale(0%);  
+filter:none; /* Firefox 3.5+ */
+}
+
+/* jm-blur effect */
+.jm-blur a img
+{
+-webkit-filter: blur(2px); 
+ filter: url(filter.svg#blur);
+}
+.jm-blur a img:hover
+{
+-webkit-filter: blur(0px);  
+filter:none; /* Firefox 3.5+ */
+}
+
+/* jm-sepia effect */
+.jm-sepia a img
+{
+-webkit-filter: sepia(100%);
+filter: url(filter.svg#sepia); /* Firefox 3.5+ */
+}
+.jm-sepia a img:hover
+{
+-webkit-filter: sepia(0%);  
+filter:none; /* Firefox 3.5+ */
+}
+
+/* jm-invert effect */
+.jm-invert a img
+{
+-webkit-filter: invert(100%);  
+filter: url(filter.svg#invert); /* Firefox 3.5+ */
+}
+.jm-invert a img:hover
+{
+-webkit-filter: invert(0%);  
+filter:none; /* Firefox 3.5+ */
+}
+
+.jm-border1 a img
+{
+border-style: solid;
+border-width:5px;
+border-color:#999;
+}
+.jm-border2 a img
+{
+border-style: double;
+border-width:5px;
+border-color:#999;
+}
+.jm-border3 a img
+{
+border-style: groove;
+border-width:5px;
+border-color:#999;
+}
+.jm-border4 a img
+{
+border-style: ridge;
+border-width:5px;
+border-color:#999;
+}
+.jm-border5 a img
+{
+border-style: outset;
+border-width:5px;
+border-color:#999;
+}
+.jm-border6 a img
+{
+border-style: inset;
+border-width:5px;
+border-color:#999;
+}
+
+/* tint effects */
+.jm-tint {
+float:left;
+}
+.jm-tint img
+{
+opacity:0.6;
+transition:all 0.5s ease-out;
+-moz-transition:all 0.5s ease-out; /* Firefox 4 */
+-webkit-transition:all 0.5s ease-out; /* Safari and Chrome */
+-o-transition:all 0.5s ease-out; /* Opera */
+}
+.jm-tint img:hover
+{
+opacity:1;
+transition:all 0.5s ease-out;
+-moz-transition:all 0.5s ease-out; /* Firefox 4 */
+-webkit-transition:all 0.5s ease-out; /* Safari and Chrome */
+-o-transition:all 0.5s ease-out; /* Opera */
+}
+
+.jm-tint-styled
+{
+float:left;
+-moz-transition:all 0.5s ease-out; /* Firefox 4 */
+-webkit-transition:all 0.5s ease-out; /* Safari and Chrome */
+-o-transition:all 0.5s ease-out; /* Opera */
+}
+.jm-tint-styled:hover
+{
+-moz-transition:all 0.5s ease-out; /* Firefox 4 */
+-webkit-transition:all 0.5s ease-out; /* Safari and Chrome */
+-o-transition:all 0.5s ease-out; /* Opera */
+}
+.jm-tint-styled img
+{
+opacity:1;
+-moz-transition:all 0.5s ease-out; /* Firefox 4 */
+-webkit-transition:all 0.5s ease-out; /* Safari and Chrome */
+-o-transition:all 0.5s ease-out; /* Opera */
+}
+.jm-tint-styled img:hover
+{
+opacity:0.5;
+-moz-transition:all 0.5s ease-out; /* Firefox 4 */
+-webkit-transition:all 0.5s ease-out; /* Safari and Chrome */
+-o-transition:all 0.5s ease-out; /* Opera */
+}
+
+.jm-tint-style1
+{
+-webkit-animation: super-rainbow 5s infinite alternate linear; 
+-moz-animation: super-rainbow 5s infinite alternate linear;
+}
+
+.jm-tint-style2
+{
+-webkit-animation: super-rainbow 5s infinite alternate linear; 
+-moz-animation: super-rainbow 5s infinite alternate linear;
+}
+.jm-tint-style2 img,.jm-tint-style3 img,.jm-tint-style4 img,.jm-tint-style5 img,.jm-tint-style6 img,.jm-tint-style7 img
+{
+opacity:0.5;
+-moz-transition:all 0.5s ease-out; /* Firefox 4 */
+-webkit-transition:all 0.5s ease-out; /* Safari and Chrome */
+-o-transition:all 0.5s ease-out; /* Opera */
+}
+.jm-tint-style2 img:hover,.jm-tint-style3 img:hover,.jm-tint-style4 img:hover,.jm-tint-style5 img:hover,.jm-tint-style6 img:hover,.jm-tint-style7 img:hover
+{
+opacity:1;
+-moz-transition:all 0.5s ease-out; /* Firefox 4 */
+-webkit-transition:all 0.5s ease-out; /* Safari and Chrome */
+-o-transition:all 0.5s ease-out; /* Opera */
+}
+
+@-webkit-keyframes super-rainbow {
+    0%   { background: red; } 
+    20%  { background: orange; }
+    40%  { background: yellow; }
+    60%  { background: green; }
+    80%  { background: blue; }
+    100% { background: violet; }
+}
+
+@-moz-keyframes super-rainbow {
+    0%   { background: red; } 
+    20%  { background: orange; }
+    40%  { background: yellow; }
+    60%  { background: green; }
+    80%  { background: blue; }
+    100% { background: violet; }
+}
+
+@-o-keyframes super-rainbow {
+    0%   { background: red; } 
+    20%  { background: orange; }
+    40%  { background: yellow; }
+    60%  { background: green; }
+    80%  { background: blue; }
+    100% { background: violet; }
+}
+
+.jm-tint-link
+{
+background:#fff url('link.png') no-repeat 10000px 0px;
+}
+.jm-tint-link:hover
+{
+background:#fff url('link.png') no-repeat center;
+}
+
+
+.jm-tint-download
+{
+background:#fff url('download.png') no-repeat 10000px 0px;
+}
+.jm-tint-download:hover
+{
+background:#fff url('download.png') no-repeat center;
+}
+
+
+.jm-tint-magnify
+{
+background:#fff url('magnify.png') no-repeat 10000px 0px;
+}
+.jm-tint-magnify:hover
+{
+background:#fff url('magnify.png') no-repeat center;
+}
+
+
+.jm-tint-video
+{
+background:#fff url('video.png') no-repeat 10000px 0px;
+}
+.jm-tint-video:hover
+{
+background:#fff url('video.png') no-repeat center;
+}
+
+
+.jm-tint-photo
+{
+background:#fff url('photo.png') no-repeat 10000px 0px;
+}
+.jm-tint-photo:hover
+{
+background:#fff url('photo.png') no-repeat center;
+}
+
+
+.jm-tint-style3
+{
+background-color: #000;
+-webkit-background-size: 30px 30px;
+-moz-background-size: 30px 30px;
+background-size: 30px 30px; /* Controls the size of the stripes */
+
+background-image: -webkit-gradient(linear, 0 0, 100% 100%,
+color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent),
+color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)),
+color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent),
+to(transparent));
+background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+transparent 75%, transparent);
+background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+transparent 75%, transparent);
+background-image: -ms-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+transparent 75%, transparent);
+background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+transparent 75%, transparent);
+background-image: linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+transparent 75%, transparent);
+}
+.jm-tint-style3:hover
+{
+background-position:100px 100px;
+}
+
+.jm-tint-style4
+{
+background-color: #000;
+-webkit-background-size: 20px 20px;
+-moz-background-size: 20px 20px;
+background-size: 20px 20px; /* Controls the size of the stripes */
+background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.5, transparent), to(transparent));
+background-image: -webkit-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: -moz-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: -ms-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: -o-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+}
+.jm-tint-style4:hover
+{
+ background-position:0px 100px;
+}
+
+.jm-tint-style5
+{
+-webkit-background-size: 20px 20px;
+-moz-background-size: 20px 20px;
+background-size: 20px 20px; /* Controls the size of the stripes */
+
+background-color: #000;
+background-image: -webkit-gradient(linear, 0 0, 100% 0, color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.5, transparent), to(transparent));
+background-image: -webkit-linear-gradient(0deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: -moz-linear-gradient(0deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: -ms-linear-gradient(0deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: -o-linear-gradient(0deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: linear-gradient(0deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+}
+.jm-tint-style5:hover
+{
+background-position:100px 0px;
+}
+
+.jm-tint-style6
+{
+-webkit-background-size: 30px 30px;
+-moz-background-size: 30px 30px;
+background-size: 30px 30px; /* Controls the size of the stripes */
+
+
+background-color: #000;
+background-image: -webkit-gradient(linear, 0 100%, 100% 0,
+color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent),
+color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)),
+color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent),
+to(transparent));
+background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+transparent 75%, transparent);
+background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+transparent 75%, transparent);
+background-image: -ms-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+transparent 75%, transparent);
+background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+transparent 75%, transparent);
+background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+transparent 75%, transparent);
+}
+.jm-tint-style6:hover
+{
+background-position:100px -100px;
+}
+
+.jm-tint-style7
+{
+-webkit-background-size: 20px 20px;
+-moz-background-size: 20px 20px;
+background-size: 20px 20px; /* Controls the size of the stripes */
+
+background-color:#000;			
+background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, #555), color-stop(.25, transparent), to(transparent)),
+-webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, #555), color-stop(.25, transparent), to(transparent)),
+-webkit-gradient(linear, 0 0, 100% 100%, color-stop(.75, transparent), color-stop(.75, #555)),
+-webkit-gradient(linear, 0 100%, 100% 0, color-stop(.75, transparent), color-stop(.75, #555));
+background-image: -webkit-linear-gradient(45deg, #555 25%, transparent 25%, transparent),
+-webkit-linear-gradient(-45deg, #555 25%, transparent 25%, transparent),
+-webkit-linear-gradient(45deg, transparent 75%, #555 75%),
+-webkit-linear-gradient(-45deg, transparent 75%, #555 75%);
+background-image: -moz-linear-gradient(45deg, #555 25%, transparent 25%, transparent),
+-moz-linear-gradient(-45deg, #555 25%, transparent 25%, transparent),
+-moz-linear-gradient(45deg, transparent 75%, #555 75%),
+-moz-linear-gradient(-45deg, transparent 75%, #555 75%);
+background-image: -ms-linear-gradient(45deg, #555 25%, transparent 25%, transparent),
+-ms-linear-gradient(-45deg, #555 25%, transparent 25%, transparent),
+-ms-linear-gradient(45deg, transparent 75%, #555 75%),
+-ms-linear-gradient(-45deg, transparent 75%, #555 75%);
+background-image: -o-linear-gradient(45deg, #555 25%, transparent 25%, transparent),
+-o-linear-gradient(-45deg, #555 25%, transparent 25%, transparent),
+-o-linear-gradient(45deg, transparent 75%, #555 75%),
+-o-linear-gradient(-45deg, transparent 75%, #555 75%);
+background-image: linear-gradient(45deg, #555 25%, transparent 25%, transparent),
+linear-gradient(-45deg, #555 25%, transparent 25%, transparent),
+linear-gradient(45deg, transparent 75%, #555 75%),
+linear-gradient(-45deg, transparent 75%, #555 75%);
+}
+.jm-tint-style7:hover
+{
+-webkit-background-size: 2px 2px;
+-moz-background-size: 2px 2px;
+background-size: 2px 2px; /* Controls the size of the stripes */
+}
+
+.jm-tint-style8
+{
+background-size: 12px 12px;
+background-color: #000;
+
+background-image: 	-webkit-radial-gradient( #555 0px, hsla(0,0%,0%,0) 2px, hsla(0,0%,0%,0) 24px),
+-webkit-repeating-radial-gradient( white 0px, black 2px, black 48px);
+background-image: 	   -moz-radial-gradient( #555 0px, hsla(0,0%,0%,0) 2px, hsla(0,0%,0%,0) 24px),
+-moz-repeating-radial-gradient( white 0px, black 2px, black 48px);
+background-image: 	    -ms-radial-gradient( #555 0px, hsla(0,0%,0%,0) 2px, hsla(0,0%,0%,0) 24px),
+-ms-repeating-radial-gradient( white 0px, black 2px, black 48px);
+background-image: 	     -o-radial-gradient( #555 0px, hsla(0,0%,0%,0) 2px, hsla(0,0%,0%,0) 24px),
+-o-repeating-radial-gradient( white 0px, black 2px, black 48px);
+background-image: 	        radial-gradient( #555 0px, hsla(0,0%,0%,0) 2px, hsla(0,0%,0%,0) 24px),
+repeating-radial-gradient( white 0px, black 2px, black 48px);
+}
+.jm-tint-style8:hover
+{
+-webkit-animation: particle-size .24s linear infinite, particle-positon .48s linear infinite alternate;
+-moz-animation: particle-size .24s linear infinite, particle-positon .48s linear infinite alternate;
+-ms-animation: particle-size .24s linear infinite, particle-positon .48s linear infinite alternate;
+-o-animation: particle-size .24s linear infinite, particle-positon .48s linear infinite alternate;
+animation: particle-size .24s linear infinite, particle-positon .48s linear infinite alternate;
+}
+
+@-webkit-keyframes particle-size { from { background-size: 6px 6px, 12px 12px; } to { background-size: 12px 12px, 24px 24px; } }
+@-moz-keyframes particle-size { from { background-size: 6px 6px, 12px 12px; } to { background-size: 12px 12px, 24px 24px; } }
+@-ms-keyframes particle-size { from { background-size: 6px 6px, 12px 12px; } to { background-size: 12px 12px, 24px 24px; } }
+@-o-keyframes particle-size { from { background-size: 6px 6px, 12px 12px; } to { background-size: 12px 12px, 24px 24px; } }
+@keyframes particle-size { from { background-size: 6px 6px, 12px 12px; } to { background-size: 12px 12px, 24px 24px; } }
+
+@-webkit-keyframes particle-positon { from { background-position: 60px, 60px; } to { background-position: 140px, 140px; } }
+@-moz-keyframes particle-positon { from { background-position: 60px, 60px; } to { background-position: 140px, 140px; } }
+@-ms-keyframes particle-positon { from { background-position: 60px, 60px; } to { background-position: 140px, 140px; } }
+@-o-keyframes particle-positon { from { background-position: 60px, 60px; } to { background-position: 140px, 140px; } }
+@keyframes particle-positon { from { background-position: 60px, 60px; } to { background-position: 140px, 140px; } }
+
+
+
+.jm-tint-style9 {
+background-size: 24px 24px;
+background-color: #fff;
+background-image: -webkit-repeating-radial-gradient( black 8px, white 12px);
+background-image:    -moz-repeating-radial-gradient( black 8px, white 12px);
+background-image: 	  -ms-repeating-radial-gradient( black 8px, white 12px);
+background-image: 	   -o-repeating-radial-gradient( black 8px, white 12px);
+background-image: 		  repeating-radial-gradient( black 8px, white 12px);
+}
+.jm-tint-style9:hover {
+-webkit-animation: cells 0.4s linear infinite;
+-moz-animation: cells 0.4s linear infinite;
+-ms-animation: cells 0.4s linear infinite;
+-o-animation: cells 0.4s linear infinite;
+animation: cells 0.4s linear infinite;
+}
+@-webkit-keyframes cells { from { background-size: 12px 12px; } to { background-size: 24px 24px; } }
+@-moz-keyframes cells { from { background-size: 12px 12px; } to { background-size: 24px 24px; } }
+@-ms-keyframes cells { from { background-size: 12px 12px; } to { background-size: 24px 24px; } }
+@-o-keyframes cells { from { background-size: 12px 12px; } to { background-size: 24px 24px; } }
+@keyframes cells { from { background-size: 12px 12px; } to { background-size: 24px 24px; } }
+
+
+.jm-tint-style10 {
+background-size: 60px 60px;
+background-color: hsla(320,80%,60%,1);
+
+background-image: 	-webkit-repeating-radial-gradient( hsla(0,100%,0%,.6) 0px, hsla(0,100%,100%,0) 60%),
+-webkit-repeating-radial-gradient( hsla(100,0%,50%,1) 12%, hsla(100,0%,95%,1) 24px);
+background-image: 	   -moz-repeating-radial-gradient( hsla(0,100%,0%,.6) 0px, hsla(0,100%,100%,0) 60%),
+-moz-repeating-radial-gradient( hsla(100,0%,50%,1) 12%, hsla(100,0%,95%,1) 24px);
+background-image: 	    -ms-repeating-radial-gradient( hsla(0,100%,0%,.6) 0px, hsla(0,100%,100%,0) 60%),
+-ms-repeating-radial-gradient( hsla(100,0%,50%,1) 12%, hsla(100,0%,95%,1) 24px);
+background-image: 	     -o-repeating-radial-gradient( hsla(0,100%,0%,.6) 0px, hsla(0,100%,100%,0) 60%),
+-o-repeating-radial-gradient( hsla(100,0%,50%,1) 12%, hsla(100,0%,95%,1) 24px);
+background-image: 	        repeating-radial-gradient( hsla(0,100%,0%,.6) 0px, hsla(0,100%,100%,0) 60%),
+repeating-radial-gradient( hsla(100,0%,50%,1) 12%, hsla(100,0%,95%,1) 24px);}
+.jm-tint-style10:hover {
+-webkit-animation: jelly 1.4s cubic-bezier(.1,.4,.9,.6) infinite;
+-moz-animation: jelly 1.4s cubic-bezier(.1,.4,.9,.6) infinite;
+-ms-animation: jelly 1.4s cubic-bezier(.1,.4,.9,.6) infinite;
+-o-animation: jelly 1.4s cubic-bezier(.1,.4,.9,.6) infinite;
+animation: jelly 1.4s cubic-bezier(.1,.4,.9,.6) infinite;
+}
+
+@-webkit-keyframes jelly {
+from { background-size:  60px  60px,  24px  24px; }
+50%  { background-size: 120px 120px, 100px 100px; }
+to   { background-size:  24px  24px, 140px 140px; }
+}
+@-moz-keyframes jelly {
+from { background-size:  60px  60px,  24px  24px; }
+50%  { background-size: 120px 120px, 100px 100px; }
+to   { background-size:  24px  24px, 140px 140px; }
+}
+@-webkit-keyframes jelly {
+from { background-size:  60px  60px,  24px  24px; }
+50%  { background-size: 120px 120px, 100px 100px; }
+to   { background-size:  24px  24px, 140px 140px; }
+}
+@-webkit-keyframes jelly {
+from { background-size:  60px  60px,  24px  24px; }
+50%  { background-size: 120px 120px, 100px 100px; }
+to   { background-size:  24px  24px, 140px 140px; }
+}
+@-webkit-keyframes jelly {
+from { background-size:  60px  60px,  24px  24px; }
+50%  { background-size: 120px 120px, 100px 100px; }
+to   { background-size:  24px  24px, 140px 140px; }
+}
+
+
+.jm-tint-style11 {
+background-size: 66px 66px;
+background-color: hsl(100,0%,95%);
+
+background-image: 	-webkit-repeating-radial-gradient( hsla(0,100%,0%,.8) 0px, hsla(0,100%,0%,.5) 4px, hsla(0,100%,0%,0) 50px),
+-webkit-repeating-radial-gradient( hsla(100,0%,95%, 0) 0px, hsla(100,0%,95%,.1) 2px, hsla(100,0%,95%,0) 10px);
+background-image: 	   -moz-repeating-radial-gradient( hsla(0,100%,0%,.8) 0px, hsla(0,100%,0%,.5) 4px, hsla(0,100%,0%,0) 50px),
+-moz-repeating-radial-gradient( hsla(100,0%,95%, 0) 0px, hsla(100,0%,95%,.1) 2px, hsla(100,0%,95%,0) 10px);
+background-image: 	    -ms-repeating-radial-gradient( hsla(0,100%,0%,.8) 0px, hsla(0,100%,0%,.5) 4px, hsla(0,100%,0%,0) 50px),
+-ms-repeating-radial-gradient( hsla(100,0%,95%, 0) 0px, hsla(100,0%,95%,.1) 2px, hsla(100,0%,95%,0) 10px);
+background-image: 	     -o-repeating-radial-gradient( hsla(0,100%,0%,.8) 0px, hsla(0,100%,0%,.5) 4px, hsla(0,100%,0%,0) 50px),
+-o-repeating-radial-gradient( hsla(100,0%,95%, 0) 0px, hsla(100,0%,95%,.1) 2px, hsla(100,0%,95%,0) 10px);
+background-image: 	        repeating-radial-gradient( hsla(0,100%,0%,.8) 0px, hsla(0,100%,0%,.5) 4px, hsla(0,100%,0%,0) 50px),
+repeating-radial-gradient( hsla(100,0%,95%, 0) 0px, hsla(100,0%,95%,.1) 2px, hsla(100,0%,95%,0) 10px);
+}
+.jm-tint-style11:hover {
+-webkit-animation: 	blobbs-position   6s cubic-bezier(.4,0,.2,1) infinite,
+blobbs-size 	.75s cubic-bezier(.4,0,.2,1) infinite alternate;
+-moz-animation: 	blobbs-position   6s cubic-bezier(.4,0,.2,1) infinite,
+blobbs-size 	.75s cubic-bezier(.4,0,.2,1) infinite alternate;
+-ms-animation: 	blobbs-position   6s cubic-bezier(.4,0,.2,1) infinite,
+blobbs-size 	.75s cubic-bezier(.4,0,.2,1) infinite alternate;
+-o-animation: 	blobbs-position   6s cubic-bezier(.4,0,.2,1) infinite,
+blobbs-size 	.75s cubic-bezier(.4,0,.2,1) infinite alternate;
+animation: 	blobbs-position   6s cubic-bezier(.4,0,.2,1) infinite,
+blobbs-size 	.75s cubic-bezier(.4,0,.2,1) infinite alternate;
+}
+
+@-webkit-keyframes blobbs-position {
+0% { background-position: left  top,  	left  top; }
+25% { background-position: right top, 		left  bottom; }
+50% { background-position: right bottom, 	right bottom; }
+75% { background-position: left  bottom,	right top; }
+100% { background-position: left  top,		left  top; }
+}
+@-moz-keyframes blobbs-position {
+0% { background-position: left  top,  	left  top; }
+25% { background-position: right top, 		left  bottom; }
+50% { background-position: right bottom, 	right bottom; }
+75% { background-position: left  bottom,	right top; }
+100% { background-position: left  top,		left  top; }
+}
+@-ms-keyframes blobbs-position {
+0% { background-position: left  top,  	left  top; }
+25% { background-position: right top, 		left  bottom; }
+50% { background-position: right bottom, 	right bottom; }
+75% { background-position: left  bottom,	right top; }
+100% { background-position: left  top,		left  top; }
+}
+@-o-keyframes blobbs-position {
+0% { background-position: left  top,  	left  top; }
+25% { background-position: right top, 		left  bottom; }
+50% { background-position: right bottom, 	right bottom; }
+75% { background-position: left  bottom,	right top; }
+100% { background-position: left  top,		left  top; }
+}
+@keyframes blobbs-position {
+0% { background-position: left  top,  	left  top; }
+25% { background-position: right top, 		left  bottom; }
+50% { background-position: right bottom, 	right bottom; }
+75% { background-position: left  bottom,	right top; }
+100% { background-position: left  top,		left  top; }
+}
+
+@-webkit-keyframes blobbs-size { from { background-size: 200px 200px, 200px 200px; } to { background-size:  66px  66px, 66px 66px; } }
+@-moz-keyframes blobbs-size { from { background-size: 200px 200px, 200px 200px; } to { background-size:  66px  66px, 66px 66px; } }
+@-ms-keyframes blobbs-size { from { background-size: 200px 200px, 200px 200px; } to { background-size:  66px  66px, 66px 66px; } }
+@-o-keyframes blobbs-size { from { background-size: 200px 200px, 200px 200px; } to { background-size:  66px  66px, 66px 66px; } }
+@keyframes blobbs-size { from { background-size: 200px 200px, 200px 200px; } to { background-size:  66px  66px, 66px 66px; } }
+
+
+
+
+.jm-tint-style12 {
+background-repeat: no-repeat, repeat;
+background-size: 180px 180px;
+background-color: hsl(0,100%,100%);
+
+background-image: 	-webkit-repeating-radial-gradient( hsla(0,100%,0%,1) 0px, hsla(0,100%,100%, 1) 10px, hsla(100,0%,95%,.2)  12px, hsla(100,0%,95%,0) 130px),
+-webkit-repeating-radial-gradient( hsla(100,0%,50%,0) 20%, hsla(100,0%,95%,.4) 80%,  hsla(100,0%,95%, 1) 120px);
+background-image: 	   -moz-repeating-radial-gradient( hsla(0,100%,0%,1) 0px, hsla(0,100%,100%, 1) 10px, hsla(100,0%,95%,.2)  12px, hsla(100,0%,95%,0) 130px),
+-moz-repeating-radial-gradient( hsla(100,0%,50%,0) 20%, hsla(100,0%,95%,.4) 80%,  hsla(100,0%,95%, 1) 120px);
+background-image: 	    -ms-repeating-radial-gradient( hsla(0,100%,0%,1) 0px, hsla(0,100%,100%, 1) 10px, hsla(100,0%,95%,.2)  12px, hsla(100,0%,95%,0) 130px),
+-ms-repeating-radial-gradient( hsla(100,0%,50%,0) 20%, hsla(100,0%,95%,.4) 80%,  hsla(100,0%,95%, 1) 120px);
+background-image: 	     -o-repeating-radial-gradient( hsla(0,100%,0%,1) 0px, hsla(0,100%,100%, 1) 10px, hsla(100,0%,95%,.2)  12px, hsla(100,0%,95%,0) 130px),
+-o-repeating-radial-gradient( hsla(100,0%,50%,0) 20%, hsla(100,0%,95%,.4) 80%,  hsla(100,0%,95%, 1) 120px);
+background-image: 	        repeating-radial-gradient( hsla(0,100%,0%,1) 0px, hsla(0,100%,100%, 1) 10px, hsla(100,0%,95%,.2)  12px, hsla(100,0%,95%,0) 130px),
+repeating-radial-gradient( hsla(100,0%,50%,0) 20%, hsla(100,0%,95%,.4) 80%,  hsla(100,0%,95%, 1) 120px);
+}
+.jm-tint-style12:hover {
+-webkit-animation: chase-position 1.2s infinite, chase-size .4s infinite alternate;
+-moz-animation: chase-position 1.2s infinite, chase-size .4s infinite alternate;
+-ms-animation: chase-position 1.2s infinite, chase-size .4s infinite alternate;
+-o-animation: chase-position 1.2s infinite, chase-size .4s infinite alternate;
+animation: chase-position 1.2s infinite, chase-size .4s infinite alternate;
+}
+
+@-webkit-keyframes chase-position {
+0% { background-position: left  top,  	left  top; }
+25% { background-position: right top, 		left  bottom; }
+50% { background-position: right bottom, 	right bottom; }
+75% { background-position: left  bottom,	right top; }
+100% { background-position: left  top,		left  top; }
+}
+@-moz-keyframes chase-position {
+0% { background-position: left  top,  	left  top; }
+25% { background-position: right top, 		left  bottom; }
+50% { background-position: right bottom, 	right bottom; }
+75% { background-position: left  bottom,	right top; }
+100% { background-position: left  top,		left  top; }
+}
+@-ms-keyframes chase-position {
+0% { background-position: left  top,  	left  top; }
+25% { background-position: right top, 		left  bottom; }
+50% { background-position: right bottom, 	right bottom; }
+75% { background-position: left  bottom,	right top; }
+100% { background-position: left  top,		left  top; }
+}
+@-o-keyframes chase-position {
+0% { background-position: left  top,  	left  top; }
+25% { background-position: right top, 		left  bottom; }
+50% { background-position: right bottom, 	right bottom; }
+75% { background-position: left  bottom,	right top; }
+100% { background-position: left  top,		left  top; }
+}
+@keyframes chase-position {
+0% { background-position: left  top,  	left  top; }
+25% { background-position: right top, 		left  bottom; }
+50% { background-position: right bottom, 	right bottom; }
+75% { background-position: left  bottom,	right top; }
+100% { background-position: left  top,		left  top; }
+}
+
+@-webkit-keyframes chase-size {
+from { background-size: 120px 120px, 300px 300px; }
+50% { background-size: 160px 160px, 150px 150px; }
+to   { background-size: 180px 180px, 100px 100px; }
+}
+@-moz-keyframes chase-size {
+from { background-size: 120px 120px, 300px 300px; }
+50% { background-size: 160px 160px, 150px 150px; }
+to   { background-size: 180px 180px, 100px 100px; }
+}
+@-ms-keyframes chase-size {
+from { background-size: 120px 120px, 300px 300px; }
+50% { background-size: 160px 160px, 150px 150px; }
+to   { background-size: 180px 180px, 100px 100px; }
+}
+@-o-keyframes chase-size {
+from { background-size: 120px 120px, 300px 300px; }
+50% { background-size: 160px 160px, 150px 150px; }
+to   { background-size: 180px 180px, 100px 100px; }
+}
+@keyframes chase-size {
+from { background-size: 120px 120px, 300px 300px; }
+50% { background-size: 160px 160px, 150px 150px; }
+to   { background-size: 180px 180px, 100px 100px; }
+}
+
+/* mask effects */
+
+.jm-mask-styled {
+   width: 160px;
+   height: 160px;
+   margin: 10px;
+   float: left;
+   border: 5px solid #fff;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   box-shadow: 0px 0px 5px #aaa;
+   cursor: default;
+}
+.jm-mask-styled .mask {
+   width: 160px;
+   height: 160px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.jm-mask-styled img {
+   display: block;
+   position: relative;
+}
+
+
+
+
+.jm-mask-style1 img {
+   opacity:1;
+   -moz-transform:scale(1,1);
+   -webkit-transform:scale(1,1);
+   -o-transform:scale(1,1);
+   -ms-transform:scale(1,1);
+   transform:scale(1,1);
+   -webkit-transition: all 0.2s ease-in;
+   -moz-transition: all 0.2s ease-in;
+   -o-transition: all 0.2s ease-in;
+   -ms-transition: all 0.2s ease-in;
+   transition: all 0.2s ease-in;
+}
+.jm-mask-style1 .mask {
+   opacity:0;
+   overflow:visible;
+   border-color:rgba(0,0,0,0.7) transparent transparent transparent;
+   border-style:solid;
+   width:0;
+   height:0;
+   -moz-transform:translateY(-125px);
+   -webkit-transform:translateY(-125px);
+   -o-transform:translateY(-125px);
+   -ms-transform:translateY(-125px);
+   transform:translateY(-125px);
+   -moz-transition: -moz-transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out;
+   -webkit-transition: -webkit-transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out;
+   -o-transition: -o-transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out;
+   -ms-transition: -ms-transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out;
+   transition: transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out;
+}
+
+.jm-mask-style1:hover img {
+	opacity:0.7;
+   -moz-transform:scale(2,2);
+   -webkit-transform:scale(2,2);
+   -o-transform:scale(2,2);
+   -ms-transform:scale(2,2);
+   transform:scale(2,2);
+}
+.jm-mask-style1:hover .mask {
+   opacity: 1;
+   -webkit-transform: translateY(0px);
+   -moz-transform: translateY(0px);
+   -o-transform: translateY(0px);
+   -ms-transform: translateY(0px);
+   transform: translateY(0px);
+}
+
+.jm-mask-style2 .mask {
+   opacity: 0;
+   overflow:visible;
+   border:0px solid rgba(0,0,0,0.7);
+   -moz-box-sizing:border-box;
+   -webkit-box-sizing:border-box;
+   box-sizing:border-box;
+   -webkit-transition: all 0.4s ease-in-out;
+   -moz-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   -ms-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;
+}
+
+.jm-mask-style2:hover .mask {
+   opacity: 1;
+   border:100px solid rgba(0,0,0,0.7);
+}
+
+
+
+.jm-mask-style3 .mask {
+	position:absolute; /* Center the mask */
+	cursor:pointer;
+    border-radius: 50px;
+    border-width: 50px;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+	border: 50px solid rgba(0, 0, 0, 0.7);
+	-moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+	opacity:1;
+	visibility:visible;
+	-moz-transform:scale(4);
+	-webkit-transform:scale(4);
+	-o-transform:scale(4);
+	-ms-transform:scale(4);
+	transform:scale(4);
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	-ms-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+}
+.jm-mask-style3:hover .mask {
+   opacity: 0;
+   border:0px solid rgba(0,0,0,0.7);
+   visibility:hidden;
+}
+
+.jm-mask-style4 img {
+   -webkit-transition: all 0.2s ease-in;
+   -moz-transition: all 0.2s ease-in;
+   -o-transition: all 0.2s ease-in;
+   -ms-transition: all 0.2s ease-in;
+   transition: all 0.2s ease-in;
+}
+.jm-mask-style4 .mask {
+   background:#000;
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transform: translate(265px, 145px) rotate(45deg);
+   -moz-transform: translate(265px, 145px) rotate(45deg);
+   -o-transform: translate(265px, 145px) rotate(45deg);
+   -ms-transform: translate(265px, 145px) rotate(45deg);
+   transform: translate(265px, 145px) rotate(45deg);
+   -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+.jm-mask-style4:hover .mask {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=70)";
+   filter: alpha(opacity=70);
+   opacity: 0.7;
+   -webkit-transform: translate(-80px, -125px) rotate(45deg);
+   -moz-transform: translate(-80px, -125px) rotate(45deg);
+   -o-transform: translate(-80px, -125px) rotate(45deg);
+   -ms-transform: translate(-80px, -125px) rotate(45deg);
+   transform: translate(-80px, -125px) rotate(45deg);
+}
+
+.jm-mask-style5 img {
+   -webkit-transition: all 0.2s ease-in;
+   -moz-transition: all 0.2s ease-in;
+   -o-transition: all 0.2s ease-in;
+   -ms-transition: all 0.2s ease-in;
+   transition: all 0.2s ease-in;
+}
+.jm-mask-style5 .mask {
+   background-color: rgba(0,0,0,0.6);
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transform: translate(460px, -100px) rotate(180deg);
+   -moz-transform: translate(460px, -100px) rotate(180deg);
+   -o-transform: translate(460px, -100px) rotate(180deg);
+   -ms-transform: translate(460px, -100px) rotate(180deg);
+   transform: translate(460px, -100px) rotate(180deg);
+   -webkit-transition: all 0.2s 0.4s ease-in-out;
+   -moz-transition: all 0.2s 0.4s ease-in-out;
+   -o-transition: all 0.2s 0.4s ease-in-out;
+   -ms-transition: all 0.2s 0.4s ease-in-out;
+   transition: all 0.2s 0.4s ease-in-out;
+}
+
+.jm-mask-style5:hover .mask {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=70)";
+   filter: alpha(opacity=70);
+   opacity: 0.7;
+   -webkit-transition-delay: 0s;
+   -moz-transition-delay: 0s;
+   -o-transition-delay: 0s;
+   -ms-transition-delay: 0s;
+   transition-delay: 0s;
+   -webkit-transform: translate(0px, 0px);
+   -moz-transform: translate(0px, 0px);
+   -o-transform: translate(0px, 0px);
+   -ms-transform: translate(0px, 0px);
+   transform: translate(0px, 0px);
+}
+
+.jm-mask-style6 .mask {
+   background:#000;
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transition: all 0.3s ease-out 0.5s;
+   -moz-transition: all 0.3s ease-out 0.5s;
+   -o-transition: all 0.3s ease-out 0.5s;
+   -ms-transition: all 0.3s ease-out 0.5s;
+   transition: all 0.3s ease-out 0.5s;
+}
+.jm-mask-style6:hover .mask {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=70)";
+   filter: alpha(opacity=70);
+   opacity: 0.7;
+   top: 0px;
+   -webkit-transition-delay: 0s;
+   -moz-transition-delay: 0s;
+   -o-transition-delay: 0s;
+   -ms-transition-delay: 0s;
+   transition-delay: 0s;
+   -webkit-animation: bounceY 0.9s linear;
+   -moz-animation: bounceY 0.9s linear;
+   -ms-animation: bounceY 0.9s linear;
+   animation: bounceY 0.9s linear;
+}
+
+@keyframes bounceY {
+    0% { transform: translateY(-205px);}
+    40% { transform: translateY(-100px);}
+    65% { transform: translateY(-52px);}
+    82% { transform: translateY(-25px);}
+    92% { transform: translateY(-12px);}
+    55%, 75%, 87%, 97%, 100% { transform: translateY(0px);}
+}
+@-moz-keyframes bounceY {
+    0% { -moz-transform: translateY(-205px);}
+    40% { -moz-transform: translateY(-100px);}
+    65% { -moz-transform: translateY(-52px);}
+    82% { -moz-transform: translateY(-25px);}
+    92% { -moz-transform: translateY(-12px);}
+    55%, 75%, 87%, 97%, 100% { -moz-transform: translateY(0px);}
+}
+@-webkit-keyframes bounceY {
+    0% { -webkit-transform: translateY(-205px);}
+    40% { -webkit-transform: translateY(-100px);}
+    65% { -webkit-transform: translateY(-52px);}
+    82% { -webkit-transform: translateY(-25px);}
+    92% { -webkit-transform: translateY(-12px);}
+    55%, 75%, 87%, 97%, 100% { -webkit-transform: translateY(0px);}
+}
+
+.jm-leftalign
+{float:left !important;}
+.jm-rightalign
+{float:right !important;}
+.jm-centeralign
+{margin:auto !important;}

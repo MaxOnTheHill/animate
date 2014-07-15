@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="content" method="upgrade">
+	<name>PLUGIN_TITLE</name>
+	<author>JM-Experts!</author>
+	<creationDate>July 2012</creationDate>
+	<copyright>Copyright (C) 2006 - 2011 JM-Experts!. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@jm-experts.com</authorEmail>
+	<authorUrl>www.jm-experts.com</authorUrl>
+	<version>2.0</version>
+	<description>PLUGIN_HTML_DESC</description>
+
+	<files>
+		<filename plugin="jm_css3effects">jm_css3effects.php</filename>
+		<filename>colorname2code.php</filename>
+		<folder>jm_css3effects</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_content_jm_css3effects.ini</language>
+		<language tag="en-GB">en-GB.plg_content_jm_css3effects.sys.ini</language>
+	</languages>
+
+	<config>
+	<fields name="params">
+		<fieldset name="basic">
+			<field
+				name="csstype"
+				type="list"
+				label="PARAMS_LABEL"
+				description="PARAMS_DES"
+				default="fullcss">
+				  <option value="fullcss">PARAMS_SEL_OP1</option>
+				  <option value="compressed">PARAMS_SEL_OP2</option>
+			</field>
+		</fieldset>
+	</fields>
+	</config>
+</extension>
